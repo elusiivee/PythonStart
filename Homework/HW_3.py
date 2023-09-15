@@ -5,9 +5,10 @@ room_number = int(input('Room number: '))
 entrance_number = ((room_number - 1) // 36) + 1
 floor_number = (room_number - 1) % 36 // 4 + 1
 room_number_on_floor = ((room_number - 1) % 4) + 1
-
-print(f'entrance: {entrance_number}, floor: {floor_number}, number on the floor: {room_number_on_floor}')
-
+if room_number >= 1 and room_number <= 144:
+    print(f'entrance: {entrance_number}, floor: {floor_number}, number on the floor: {room_number_on_floor}')
+else:
+    print('there is no such room ')
 # 2
 
 year = int(input('Year: '))
