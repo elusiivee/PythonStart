@@ -59,7 +59,7 @@ import math
 
 
 # add
-
+month_list= {}
 DEPOSIT_AMOUNT = 100000
 ANNUAL_INTEREST_RATE = 15
 TAX_RATE = 19.5
@@ -76,7 +76,9 @@ for i in range(1, YEAR + 1):
 print('The total amount of profit for each month:')
 for i in range(DEPOSIT_MONTHS):
     monthly_money = (DEPOSIT_AMOUNT* ANNUAL_INTEREST_RATE/12)/100
-    print(f"Місяць {i+1}: ${monthly_money:.2f}")
+    month_list[f'Month {i + 1}']= monthly_money
+
+print(month_list)
 
 
 
