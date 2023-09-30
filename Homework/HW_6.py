@@ -78,7 +78,7 @@ for i in range(DEPOSIT_MONTHS):
     monthly_money = (DEPOSIT_AMOUNT* ANNUAL_INTEREST_RATE/12)/100
     month_list[f'Month {i + 1}']= monthly_money
 
-print(month_list)
+print(month_list.get())
 
 
 

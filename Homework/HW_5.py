@@ -56,27 +56,27 @@ import random
 # print('*' * width)
 
 # # 7
-# l = [0, 5, 2, 4, 7, 1, 3, 19]
+# list_1 = [0, 5, 2, 4, 7, 1, 3, 19]
 # summ = 0
-# for i in l:
+# for i in list:
 #     if i % 2 != 0:
 #         summ += i
 # print(summ)
 
 # #8
-# l1=[]
-# l2=[]
+# list1=[]
+# list2=[]
 # for i in range(4):
-#     l1.append(random.randint(1,10))
-# l2= l1 + [item*2 for item in l1]
-# print(l1)
-# print(l2)
+#     list1.append(random.randint(1,10))
+# list2= list1 + [item*2 for item in list1]
+# print(list1)
+# print(list2)
 
 # #9
-# l1=[]
+# list1=[]
 # for i in range(12):
-#     l1.append(random.randint(3000,4000))
-# print(round(sum(l1)/12,2))
+#     list1.append(random.randint(3000,4000))
+# print(round(sum(list1)/12,2))
 
 # # 10
 # matrix=[[1, 2, 3, 4],
